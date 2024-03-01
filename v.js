@@ -6,7 +6,7 @@ function loadVue() {
   app = new Vue({
     el: "#app",
     data: {
-      player: 0
+      number: 0
     }
   })
 }
