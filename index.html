@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-    <script type="module">
-      import { createApp } from 'vue'
+<script type="module">
+  import { createApp } from 'vue'
 
-      createApp({
-        data() {
-          return {
-            number: '1'
-          }
-        }
-      }).mount('#app')
-    </script>
-  </head>
-  <body>
-    <div id="app">
-      <h1>{{number}}</h1>
-    </div>
-  </body>
-</html>
+  createApp({
+    data() {
+      return {
+        number: '1'
+      }
+    }
+  }).mount('#app')
+</script>
+
+<div id="app">
+  <h1>{{number}}</h1>
+</div>
