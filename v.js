@@ -1,12 +1,9 @@
-var app;
+import { createApp } from 'vue'
 
-function loadVue() {
-
-
-  app = new Vue({
-    el: "#app",
-    data: {
-      number: 0
+createApp({
+  data() {
+    return {
+      number: '1'
     }
-  })
-}
+  }
+}).mount('#app')
