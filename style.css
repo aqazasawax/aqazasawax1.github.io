@@ -19,6 +19,7 @@ button {
 	height: 100px;
 	align-items: center;
 	justify-content: center;
+	left: 50%;
 }
 
 button:hover {
