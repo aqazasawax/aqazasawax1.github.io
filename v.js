@@ -1,9 +1,9 @@
-  const app = Vue.createApp({
-   data() {
+const app = Vue.createApp({
+  data() {
     return {
-     message: "Hello World!"
+      message: UPGRADES.tree1.11.desc
     }
-   }
-  })
-  
-  app.mount('#app')
+  }
+})
+
+app.mount('#app')
