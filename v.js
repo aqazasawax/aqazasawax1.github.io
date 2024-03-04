@@ -1,6 +1,5 @@
 const app = Vue.createApp({
   data() {
-    UPGRADES,
     return {
       message: 'test'
     }
