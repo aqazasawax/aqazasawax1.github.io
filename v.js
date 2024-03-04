@@ -1,10 +1,13 @@
 const app = Vue.createApp({
   data() {
+    UPGRADES,
     return {
-      message: 'UPGRADES.tree1.11.desc'
+      message: 'test'
     }
+  },
+  computed: {
+    
   }
-  
 })
 
 app.mount('#app')
