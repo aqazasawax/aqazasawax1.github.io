@@ -1,4 +1,4 @@
-const UPGRADES = {
+export const UPGRADES = {
         tree1: {
                 11: {
                         desc: "Start your adventure as a warrior. Gain 1 point per second.",
