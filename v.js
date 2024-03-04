@@ -1,7 +1,7 @@
 const app = Vue.createApp({
   data() {
     return {
-      message: 'test'
+      message: 'UPGRADES.tree1.11.desc'
     }
   }
   
