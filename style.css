@@ -6,7 +6,6 @@ body {
 }
 
 #app {
-  	display: inline-block;
   	font-size: x-large;
   	background-color: lightgreen;
 	width: 100vw;
@@ -18,6 +17,8 @@ body {
 button {
 	width: 200px;
 	height: 100px;
+	align-items: center;
+	justify-content: center;
 }
 
 button:hover {
