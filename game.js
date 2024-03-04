@@ -1,15 +1,16 @@
 var player;
 
 function startPlayer() {
-  return {
-    time: Date.now(),
-    timePlayed: 0,
-    points: new Decimal(10),
-    tree1: {
-      active: true,
-      upgrades: [],
-    }
-  }
+	return {
+		time: Date.now(),
+		timePlayed: 0,
+		points: new Decimal(10),
+		class1: "warrior",
+    		tree1: {
+      			active: true,
+      			upgrades: [],
+    		}
+  	}
 }
 
 function save() {
