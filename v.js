@@ -1,3 +1,5 @@
+import { UPGRADES } from "/upgrades.js";
+
 const app = Vue.createApp({
   data() {
     return {
