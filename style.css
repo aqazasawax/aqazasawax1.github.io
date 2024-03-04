@@ -5,6 +5,15 @@ body {
   	justify-content: center;
 }
 
+#app {
+  	font-size: x-large;
+  	background-color: lightgreen;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
 button {
 	width: 200px;
 	height: 100px;
